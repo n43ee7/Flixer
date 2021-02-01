@@ -8,10 +8,12 @@ Flixer is an app that allows users to browse movies from the [The Movie Database
 ## Flixer Part 1
 
 ### User Stories
-`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after after checking off completed user stories)
+Stareted working with a splash screen and everything trying to make it as "Netflix" as possible but then came the BlueScreen of death... What went wrong? 
+Android Studio tried to access my GPU and the GPU didnt like it! So I lost progress and everytime the emulator ran it would crash my PC. I tried to work around it but it was final. A NEW PC it was.
+I started out with my new PC working on this app to got it done but not as exciting as I wanted it to be so SORRY CODEPATH. Also ALWAYS count the items to be inflated into the recycler view plis!!!!
 
 #### REQUIRED (10pts)
-- [ ] (10pts) User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
+- [x] (10pts) User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
 
 #### BONUS
 - [ ] (2pts) Views should be responsive for both landscape/portrait mode.
@@ -23,14 +25,11 @@ Flixer is an app that allows users to browse movies from the [The Movie Database
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
-
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://imgur.com/9ydHW4p.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+Never mess with your IDE a day before your project submission!
 
 ### Open-source libraries used
-
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Androids
