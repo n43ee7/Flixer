@@ -8,10 +8,6 @@ Flixer is an app that allows users to browse movies from the [The Movie Database
 ## Flixer Part 1
 
 ### User Stories
-Stareted working with a splash screen and everything trying to make it as "Netflix" as possible but then came the BlueScreen of death... What went wrong? 
-Android Studio tried to access my GPU and the GPU didnt like it! So I lost progress and everytime the emulator ran it would crash my PC. I tried to work around it but it was final. A NEW PC it was.
-I started out with my new PC working on this app to got it done but not as exciting as I wanted it to be so SORRY CODEPATH. Also ALWAYS count the items to be inflated into the recycler view plis!!!!
-
 #### REQUIRED (10pts)
 - [x] (10pts) User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
 
