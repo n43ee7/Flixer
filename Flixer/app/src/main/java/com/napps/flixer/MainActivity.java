@@ -4,13 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 import com.codepath.asynchttpclient.AsyncHttpClient;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
 import com.napps.flixer.adapters.MovieAdapter;
 import com.napps.flixer.models.Movie;
+import com.rbddevs.splashy.Splashy;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,8 +32,28 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Setting Dynmaic UI Color
         setContentView(R.layout.activity_main);
-        RecyclerView MoviesView = findViewById(R.id.MovieView);
+        setContentView(R.layout.activity_main);
+        @SuppressLint("CutPasteId") View someView = findViewById(R.id.MovieView);
+        View root = someView.getRootView();
+        root.setBackgroundColor(getResources().getColor(R.color.UIblack));
+        @SuppressLint("CutPasteId") RecyclerView MoviesView = findViewById(R.id.MovieView);
+
+
+        // Splash Screen Runtime
+        new Splashy(this)  // For JAVA : new Splashy(this)
+                .setLogo(R.drawable.ic_launcher_foreground)
+                .setBackgroundColor(R.color.black_700)
+                .setTitle("Flixer")
+                .setTitleColor(R.color.red)
+                .setSubTitle("n43ee7")
+                .setProgressColor(R.color.black_700)
+                .setFullScreen(true)
+                .show();
+
+
+
         movies = new ArrayList<>();
 
         // Create the adapter
