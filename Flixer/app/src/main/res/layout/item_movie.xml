@@ -20,7 +20,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/MovieAvatar"
-        android:textColor="#FFFFFF"
         android:textSize="24sp"
         tools:text="Fast and the Furious Presents: Hobbs Shaw" />
 
@@ -32,6 +31,5 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/MovieAvatar"
-        android:textColor="#FFFFFF"
         tools:text="A spinoff of the movie Fate of the furious" />
 </RelativeLayout>
