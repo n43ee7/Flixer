@@ -3,4 +3,7 @@
     <string name="todo">TODO</string>
     <string name="sample_text">Sample Text</string>
     <string name="textview">TextView</string>
+    <string name="sampletext">SampleText</string>
+    <string name="overview">Overview</string>
+    <string name="string_overview" />
 </resources>

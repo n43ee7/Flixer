@@ -19,7 +19,6 @@ import com.napps.flixer.R;
 import com.napps.flixer.models.DetailActivity;
 import com.napps.flixer.models.Movie;
 
-import org.parceler.Parcel;
 import org.parceler.Parcels;
 
 import java.util.List;
