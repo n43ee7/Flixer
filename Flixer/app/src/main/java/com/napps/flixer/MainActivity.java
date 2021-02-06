@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Splash Screen Runtime
-        new Splashy(this)  // For JAVA : new Splashy(this)
+        new Splashy(this)
                 .setLogo(R.drawable.ic_launcher_foreground)
                 .setBackgroundColor(R.color.black_700)
                 .setTitle("Flixer")
